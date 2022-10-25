@@ -46,7 +46,7 @@ export default function Sidebar() {
   }, []);
 
   return (
-    <>
+    <React.Fragment>
       <Section>
         <div className="top">
           <div className="brand">
@@ -409,7 +409,7 @@ export default function Sidebar() {
             </div>
         </div>
       </ResponsiveNav>
-    </>
+    </React.Fragment>
   );
 }
 const Section = styled.section`
